@@ -1,7 +1,7 @@
 # angualr2-webpack 
 
 ```bash 
-# 克隆
+# 克隆  
 git clone git@github.com:tangJunGit/angualr2-webpack.git
 
 # 进入angular2-webpack目录
