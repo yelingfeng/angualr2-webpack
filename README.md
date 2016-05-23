@@ -2,24 +2,18 @@
 
 ```bash
 # 克隆
-git clone https://github.com/tangJunGit/angualr2-webpack.git
+git clone git@github.com:tangJunGit/angualr2-webpack.git
 
-# change directory to our repo
-cd angular2-webpack-starter
+# 进入angular2-webpack目录
+cd angular2-webpack
 
-# add required global libraries
+# 添加所需的全局依赖的库
 npm install typings webpack-dev-server rimraf webpack -g
 
-# install the repo with npm
+# 添加项目依赖的库
 npm install
 
-# start the server
+# 启动服务
 npm start
-
-# use Hot Module Replacement
-npm run server:dev:hmr
-
-# if you're in China use cnpm
-# https://github.com/cnpm/cnpm
 ```
-go to [http://0.0.0.0:3000](http://0.0.0.0:3000) or [http://localhost:3000](http://localhost:3000) in your browser
+浏览器访问地址[http://localhost:8080](http://localhost:8080)
