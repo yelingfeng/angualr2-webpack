@@ -47,6 +47,7 @@ module.exports = {
     }),
 
     new HtmlWebpackPlugin({
+      favicon:'public/images/favicon.ico',  //favicon路径
       template: 'src/index.html'
     })
   ]
