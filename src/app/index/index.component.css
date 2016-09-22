@@ -1,0 +1,16 @@
+ .bg{
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   color: #fff;
+   background: #286090;
+   overflow: auto;
+ }
+ main {
+  padding: 1em;
+  text-align: center;
+  margin-top: 50px;
+  display: block;
+}

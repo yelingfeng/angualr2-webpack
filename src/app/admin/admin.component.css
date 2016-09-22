@@ -1,0 +1,46 @@
+header.container-fluid{    
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 70px;
+    color: #fff;
+    background: #286090;
+    z-index: 999;
+    overflow: hidden;
+}
+header .exit{
+    display: block;
+    height: 70px;
+    line-height: 80px;
+    color: #fff;
+    cursor: pointer;
+}
+nav.menu{
+    position: absolute;
+    width: 240px;
+    top: 70px;
+    bottom: 0;
+    left: 0;    
+    border-right: 1px solid #ddd;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 999;
+}
+nav.menu .list-group{
+    margin-bottom: 0;
+}
+nav.menu .list-group-item{
+    border-right: none;
+    border-radius: 0;
+}
+section.content{
+    position: absolute;
+    top:70px;
+    left: 240px;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+    z-index: 999;
+}
+
