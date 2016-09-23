@@ -10,7 +10,6 @@ header.container-fluid{
     overflow: hidden;
 }
 header .exit{
-    display: block;
     height: 70px;
     line-height: 80px;
     color: #fff;

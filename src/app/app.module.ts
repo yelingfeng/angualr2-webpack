@@ -5,6 +5,7 @@ import { routing, appRoutingProviders } from './app.routing';
 import { AppComponent } from './app.component';
 import { IndexComponent } from './index/index.component'; 
 import { AdminComponent } from './admin/admin.component';
+import { FormComponent } from './form/form.component';
 
 @NgModule({
   imports: [
@@ -14,7 +15,8 @@ import { AdminComponent } from './admin/admin.component';
   declarations: [
     AppComponent,
     IndexComponent,
-    AdminComponent
+    AdminComponent,
+    FormComponent
   ],
   providers:[
     appRoutingProviders
